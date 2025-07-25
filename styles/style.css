@@ -87,6 +87,57 @@ span.fresh {
   color: rgb(233, 90, 8);
 }
 
+/* Our Plants Section */
+.plants-description {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.plants-description .title {
+  font-size: 50px;
+  font-weight: 700;
+}
+span.our {
+  color: rgb(233, 90, 8);
+}
+.plants-description .subtitle {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.card-plant {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20;
+}
+.plant {
+  width: 270px;
+  margin-bottom: 20px;
+}
+.plant-description {
+  text-align: center;
+}
+.plant-description .name {
+  color: rgb(17, 17, 17);
+  font-size: 22px;
+  font-weight: 500;
+}
+.plant-description .price {
+  color: rgb(17, 17, 17);
+  font-size: 22px;
+  font-weight: 700;
+}
+.cart-btn {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  background: rgb(233, 90, 8);
+  text-align: center;
+  width: 100%;
+  border: none;
+  padding: 10px;
+}
+
 /* Responsive Design for Mobile Devices */
 @media (max-width: 576px) {
   .navbar {
