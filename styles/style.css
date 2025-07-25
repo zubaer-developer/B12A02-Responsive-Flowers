@@ -96,4 +96,28 @@ span.fresh {
   .menu-bar {
     display: none;
   }
+
+  .description {
+    padding: 20px;
+    width: 100%;
+  }
+  .fresh-flowers {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .flowers {
+    grid-row: 1;
+  }
+  .flowers img {
+    width: 100%;
+  }
+  h1.title {
+    font-size: 24px;
+    margin-top: 0px;
+  }
+  p.text {
+    font-size: 14px;
+    margin-top: 10px;
+  }
 }
