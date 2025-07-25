@@ -64,6 +64,29 @@
   font-weight: 400;
 }
 
+/* Main Styles */
+
+/* Always fresh-flowers Section Styles */
+.fresh-flowers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 221px;
+}
+h1.title {
+  font-weight: bold;
+  font-size: 65px;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+p.text {
+  font-size: 22px;
+  margin-top: 35px;
+}
+span.fresh {
+  color: rgb(233, 90, 8);
+}
+
 /* Responsive Design for Mobile Devices */
 @media (max-width: 576px) {
   .navbar {
