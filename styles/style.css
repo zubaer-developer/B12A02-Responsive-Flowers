@@ -17,3 +17,52 @@
 }
 
 /* Common Styles */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Header Style */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.navbar-left {
+}
+.navbar-right {
+  /* display: flex; */
+  margin-top: 10px;
+}
+.navbar-right ul li {
+  list-style: none;
+}
+.navbar-right ul li a {
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+.menu-bar ul {
+  display: flex;
+  gap: 48px;
+}
+.menu-bar ul li:nth-child(1) a {
+  color: rgb(37, 36, 50);
+  font-family: Inter;
+  font-weight: 700;
+}
+.menu-bar ul li:nth-child(2) a,
+.menu-bar ul li:nth-child(3) a {
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-weight: 400;
+}
+.cart ul li a {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-weight: 400;
+}
