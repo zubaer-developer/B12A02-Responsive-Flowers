@@ -212,4 +212,19 @@ span.our {
   .plant img {
     width: 100%;
   }
+  .plants-lover {
+    grid-template-columns: 1fr;
+    height: auto;
+    width: auto;
+    gap: 5px;
+  }
+  .plants-lover-flower {
+    width: 376px;
+    height: 270px;
+    padding: 10px;
+  }
+  img.trusted-badge {
+    /* visibility: hidden; */
+    display: none;
+  }
 }
